@@ -1,0 +1,30 @@
+{
+  "name": "node_filesystem",
+  "version": "1.0.0",
+  "description": "NODE Task 1 - File system ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagapriyankar/Node-FILE-SYSTEM.git"
+  },
+  "author": "Nagapriyanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagapriyankar/Node-FILE-SYSTEM/issues"
+  },
+  "homepage": "https://github.com/Nagapriyankar/Node-FILE-SYSTEM#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7"
+  }
+}
